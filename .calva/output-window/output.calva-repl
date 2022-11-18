@@ -45,3 +45,77 @@ clj꞉passman.db꞉> 
 nil
 
 clj꞉passman.db꞉> 
+; java.lang.Exception: Could not find namespace: honey.sql.as. passman.db /Users/marcmendoza/Documents/GitHub/clojure/passman/src/passman/db.clj:2:3
+clj꞉passman.db꞉> 
+; Jacking in...
+; nREPL Connection was closed
+; Starting Jack-in Terminal: bb --nrepl-server 64870
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉user꞉> 
+; Jack-in done.
+clj꞉user꞉> 
+nil
+
+clj꞉passman.db꞉> 
+{:pod/id "pod.babashka.go-sqlite3"}
+
+clj꞉passman.db꞉> 
+nil
+
+clj꞉passman.db꞉> 
+nil
+
+clj꞉passman.db꞉> 
+["CREATE TABLE password (url TEXT, username TEXT, UNIQUE(url, username))"]
+
+clj꞉passman.db꞉> 
+nil
+
+clj꞉passman.db꞉> 
+; clojure.lang.ExceptionInfo: Could not resolve symbol: sqlite/execute! passman.db /Users/marcmendoza/Documents/GitHub/clojure/passman/src/passman/db.clj:1:1
+clj꞉passman.db꞉> 
+#<Var@4f3c07bf: "passman.db">
+
+clj꞉passman.db꞉> 
+nil
+
+clj꞉passman.db꞉> 
+; clojure.lang.ExceptionInfo: Could not resolve symbol: sqlite/execute! passman.db /Users/marcmendoza/Documents/GitHub/clojure/passman/src/passman/db.clj:1:1
+clj꞉passman.db꞉> 
+nil
+
+clj꞉passman.db꞉> 
+{:rows-affected 0, :last-inserted-id 0}
+
+clj꞉passman.db꞉> 
+nil
+
+clj꞉passman.db꞉> 
+nil
+
+clj꞉passman.db꞉> 
+true
+
+clj꞉passman.db꞉> 
+nil
+
+clj꞉passman.db꞉> 
+nil
+
+clj꞉passman.db꞉> 
+; clojure.lang.ExceptionInfo: Could not resolve symbol: create-db! passman.db /Users/marcmendoza/Documents/GitHub/clojure/passman/src/passman/db.clj:1:1
+clj꞉passman.db꞉> 
+#<Var@4b7486c0: #object[sci.impl.fns$fun$arity_0__3544 0x35237628 "sci.impl.fns$fun$arity_0__3544@35237628"]>
+
+clj꞉passman.db꞉> 
+nil
+
+clj꞉passman.db꞉> 
