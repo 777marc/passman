@@ -11,4 +11,3 @@
         options (:options parsed-options)]
     (cond
       (:list options) (t/table (list-passwords)))))
-
