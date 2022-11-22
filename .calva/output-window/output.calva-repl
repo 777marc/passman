@@ -305,3 +305,44 @@ clj꞉user꞉> 
 nil
 
 clj꞉passman.app꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Starting Jack-in Terminal: bb --nrepl-server 63890
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉user꞉> 
+; Jack-in done.
+clj꞉user꞉> 
+#<Var@2c6ab0df: #object[sci.impl.fns$fun$arity_1__3549 0x2f94c91d "sci.impl.fns$fun$arity_1__3549@2f94c91d"]>
+
+clj꞉passman.password꞉> 
+"S`4N/TL27V@\"jy[uM$Wl>FKs<1Dd8?Gti$TskBep2c9]KCg\"dX"
+
+clj꞉passman.password꞉> 
+#<Var@61a1ec11: 
+  [["-l"
+    "--length Length"
+    "Password Length"
+    :default
+    40
+    :parse-fn
+    #object[sci.impl.fns$fun$arity_1__3549 0x7e902c06 "sci.impl.fns$fun$arity_1__3549@7e902c06"]
+    :validate
+    [#object[sci.impl.fns$fun$arity_1__3549 0x2cf4c3d8 "sci.impl.fns$fun$arity_1__3549@2cf4c3d8"]
+     "Must be a number between 0 and 65536"]]
+   ["-g" "--generate" "Generate new password"]
+   [nil "--list"]]>
+
+clj꞉passman.app꞉> 
+; clojure.lang.ExceptionInfo: Could not resolve symbol: parse-opts passman.app /Users/marcmendoza/Documents/GitHub/clojure/passman/src/passman/app.clj:2:24
+clj꞉passman.app꞉> 
+nil
+
+clj꞉passman.app꞉> 
