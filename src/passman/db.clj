@@ -2,10 +2,11 @@
   (:require [babashka.pods :as pods]
             [honey.sql :as sql]
             [honey.sql.helpers :as h]
-            [babashka.fs :as fs]
-            [pod.babashka.go-sqlite3 :as sqlite]))
+            [babashka.fs :as fs]))
 
 (pods/load-pod 'org.babashka/go-sqlite3 "0.1.0")
+
+(require '[pod.babashka.go-sqlite3 :as sqlite])
 
 (def dbname "passman.db")
 
