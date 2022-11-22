@@ -1,5 +1,6 @@
 (ns passman.app
-  (:require [clojure.tools.cli :refer [parse-opts]]))
+  (:require [clojure.tools.cli :refer [parse-opts]])
+  (:require [passman.db :refer [list-passwords]]))
 
 (def cli-options
   [[nil "--list"]])
@@ -8,4 +9,5 @@
   (let [parsed-options (parse-opts args cli-options)
         options (:options parsed-options)]
     (cond
-      (:list options) (println "list stored passwords"))))
+      (:list options) (list-passwords))))
+

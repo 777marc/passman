@@ -5,7 +5,7 @@
 ; Happy coding! ♥️
 
 ; Jacking in...
-; Starting Jack-in Terminal: bb --nrepl-server 64161
+; Starting Jack-in Terminal: bb --nrepl-server 63084
 ; Hooking up nREPL sessions...
 ; Connected session: clj
 ; TIPS:
@@ -18,23 +18,11 @@
 clj꞉user꞉>  ; Use `alt+enter` to evaluate
 ; Jack-in done.
 clj꞉user꞉> 
-2
+(+ 1 3)
+4
 
-clj꞉passman.app꞉> 
-nil
-
-clj꞉passman.db꞉> 
-{:pod/id "pod.babashka.go-sqlite3"}
-
-; Downloading pod org.babashka/go-sqlite3 (0.1.0)
-; 
-; Successfully installed pod org.babashka/go-sqlite3 (0.1.0)
-clj꞉passman.db꞉> 
-{:pod/id "pod.babashka.go-sqlite3"}
-
-clj꞉passman.db꞉> 
-nil
-
+clj꞉user꞉> 
+; clojure.lang.ExceptionInfo: Could not resolve symbol: sql/format passman.db /Users/marcmendoza/Documents/GitHub/clojure/passman/src/passman/db.clj:5:7
 clj꞉passman.db꞉> 
 nil
 
@@ -45,11 +33,48 @@ clj꞉passman.db꞉> 
 nil
 
 clj꞉passman.db꞉> 
-; java.lang.Exception: Could not find namespace: honey.sql.as. passman.db /Users/marcmendoza/Documents/GitHub/clojure/passman/src/passman/db.clj:2:3
+#<Var@557cb469: "passman.db">
+
 clj꞉passman.db꞉> 
-; Jacking in...
+#<Var@493c3e46: #object[sci.impl.fns$fun$arity_0__3544 0x54f91f41 "sci.impl.fns$fun$arity_0__3544@54f91f41"]>
+
+clj꞉passman.db꞉> 
+["\nINSERT INTO passwords\n(url, username)\nVALUES (?, ?)\n" "facebook.com" "marc@test.com"]
+
+clj꞉passman.db꞉> 
+#<Var@5b7d9d56: #object[sci.impl.fns$fun$arity_2__3556 0x606f7674 "sci.impl.fns$fun$arity_2__3556@606f7674"]>
+
+clj꞉passman.db꞉> 
+; clojure.lang.ExceptionInfo: no such table: passwords passman.db /Users/marcmendoza/Documents/GitHub/clojure/passman/src/passman/db.clj:2:3
+clj꞉passman.db꞉> 
+nil
+
+clj꞉passman.db꞉> 
+; clojure.lang.ExceptionInfo: no such table: passwords passman.db /Users/marcmendoza/Documents/GitHub/clojure/passman/src/passman/db.clj:2:3
+clj꞉passman.db꞉> 
+; clojure.lang.ExceptionInfo: no such table: passwords passman.db /Users/marcmendoza/Documents/GitHub/clojure/passman/src/passman/db.clj:2:3
+clj꞉passman.db꞉> 
+#<Var@5b7d9d56: #object[sci.impl.fns$fun$arity_2__3556 0x37863906 "sci.impl.fns$fun$arity_2__3556@37863906"]>
+
+clj꞉passman.db꞉> 
+#<Var@493c3e46: #object[sci.impl.fns$fun$arity_0__3544 0x160488ab "sci.impl.fns$fun$arity_0__3544@160488ab"]>
+
+clj꞉passman.db꞉> 
+{:rows-affected 0, :last-inserted-id 0}
+
+clj꞉passman.db꞉> 
+; clojure.lang.ExceptionInfo: no such table: passwords passman.db /Users/marcmendoza/Documents/GitHub/clojure/passman/src/passman/db.clj:2:3
+clj꞉passman.db꞉> 
+; clojure.lang.ExceptionInfo: no such table: passwords passman.db /Users/marcmendoza/Documents/GitHub/clojure/passman/src/passman/db.clj:2:3
+clj꞉passman.db꞉> 
+{:rows-affected 0, :last-inserted-id 0}
+
+clj꞉passman.db꞉> 
+; clojure.lang.ExceptionInfo: no such table: passwords passman.db /Users/marcmendoza/Documents/GitHub/clojure/passman/src/passman/db.clj:2:3
+clj꞉passman.db꞉> 
 ; nREPL Connection was closed
-; Starting Jack-in Terminal: bb --nrepl-server 64870
+; Jacking in...
+; Starting Jack-in Terminal: bb --nrepl-server 63223
 ; Hooking up nREPL sessions...
 ; Connected session: clj
 ; TIPS:
@@ -71,51 +96,75 @@ clj꞉passman.db꞉> 
 nil
 
 clj꞉passman.db꞉> 
-nil
+#<Var@3a92b1bb: "passman.db">
 
 clj꞉passman.db꞉> 
-["CREATE TABLE password (url TEXT, username TEXT, UNIQUE(url, username))"]
+#<Var@3a7daf0b: #object[sci.impl.fns$fun$arity_0__3544 0x41ce8a4f "sci.impl.fns$fun$arity_0__3544@41ce8a4f"]>
 
 clj꞉passman.db꞉> 
-nil
+#<Var@765c99d3: #object[sci.impl.fns$fun$arity_2__3556 0x5d60b1df "sci.impl.fns$fun$arity_2__3556@5d60b1df"]>
 
 clj꞉passman.db꞉> 
-; clojure.lang.ExceptionInfo: Could not resolve symbol: sqlite/execute! passman.db /Users/marcmendoza/Documents/GitHub/clojure/passman/src/passman/db.clj:1:1
-clj꞉passman.db꞉> 
-#<Var@4f3c07bf: "passman.db">
+{:last-inserted-id 0, :rows-affected 0}
 
 clj꞉passman.db꞉> 
-nil
+{:last-inserted-id 1, :rows-affected 1}
 
 clj꞉passman.db꞉> 
-; clojure.lang.ExceptionInfo: Could not resolve symbol: sqlite/execute! passman.db /Users/marcmendoza/Documents/GitHub/clojure/passman/src/passman/db.clj:1:1
-clj꞉passman.db꞉> 
-nil
+#<Var@569befa1: #object[sci.impl.fns$fun$arity_0__3544 0x5ceaccc1 "sci.impl.fns$fun$arity_0__3544@5ceaccc1"]>
 
 clj꞉passman.db꞉> 
-{:rows-affected 0, :last-inserted-id 0}
+[{:url "myspace.com", :username "marc@test.com"}]
 
 clj꞉passman.db꞉> 
 nil
 
-clj꞉passman.db꞉> 
+clj꞉passman.app꞉> 
+; clojure.lang.ExceptionInfo: Could not resolve symbol: cli-options passman.app /Users/marcmendoza/Documents/GitHub/clojure/passman/src/passman/app.clj:2:24
+clj꞉passman.app꞉> 
+#<Var@26d081c0: [[nil "--list"]]>
+
+clj꞉passman.app꞉> 
+#<Var@745874e: #object[sci.impl.fns$fun$arity_0__3040 0x1c32d7a0 "sci.impl.fns$fun$arity_0__3040@1c32d7a0"]>
+
+clj꞉passman.app꞉> 
+(-main)
 nil
 
+clj꞉passman.app꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Starting Jack-in Terminal: bb --nrepl-server 63342
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉user꞉> 
+; Jack-in done.
+clj꞉user꞉> 
+; java.lang.Exception: Could not find namespace: pod.babashka.go-sqlite3. passman.app /Users/marcmendoza/Documents/GitHub/clojure/passman/src/passman/db.clj:2:3
+clj꞉passman.app꞉> 
+; Jacking in...
+; Starting Jack-in Terminal: bb --nrepl-server 63370
+; nREPL Connection was closed
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉user꞉> 
+; Jack-in done.
+clj꞉user꞉> 
+; java.lang.Exception: Could not find namespace: pod.babashka.go-sqlite3. passman.db /Users/marcmendoza/Documents/GitHub/clojure/passman/src/passman/db.clj:2:3
 clj꞉passman.db꞉> 
-true
-
-clj꞉passman.db꞉> 
-nil
-
-clj꞉passman.db꞉> 
-nil
-
-clj꞉passman.db꞉> 
-; clojure.lang.ExceptionInfo: Could not resolve symbol: create-db! passman.db /Users/marcmendoza/Documents/GitHub/clojure/passman/src/passman/db.clj:1:1
-clj꞉passman.db꞉> 
-#<Var@4b7486c0: #object[sci.impl.fns$fun$arity_0__3544 0x35237628 "sci.impl.fns$fun$arity_0__3544@35237628"]>
-
-clj꞉passman.db꞉> 
-nil
-
+; java.lang.Exception: Could not find namespace: pod.babashka.go-sqlite3. passman.db /Users/marcmendoza/Documents/GitHub/clojure/passman/src/passman/db.clj:1:1
 clj꞉passman.db꞉> 
