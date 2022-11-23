@@ -346,3 +346,31 @@ clj꞉passman.app꞉> 
 nil
 
 clj꞉passman.app꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Starting Jack-in Terminal: bb --nrepl-server 52167
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉user꞉> 
+; Jack-in done.
+clj꞉user꞉> 
+nil
+
+clj꞉passman.stash꞉> 
+; clojure.lang.ExceptionInfo: Could not resolve symbol: stash/init passman.stash /Users/marc/Documents/GitHub/clojure/passman/src/passman/stash.clj:5:3
+clj꞉passman.stash꞉> 
+{:pod/id "pod.rorokimdim.stash"}
+
+; Downloading pod rorokimdim/stash (0.3.1)
+; 
+; Successfully installed pod rorokimdim/stash (0.3.1)
+clj꞉passman.stash꞉> 
+; clojure.lang.ExceptionInfo: Could not resolve symbol: stash/init passman.stash /Users/marc/Documents/GitHub/clojure/passman/src/passman/stash.clj:5:3
+clj꞉passman.stash꞉> 
