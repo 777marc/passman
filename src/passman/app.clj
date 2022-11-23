@@ -1,7 +1,9 @@
 (ns passman.app
   (:require [clojure.tools.cli :refer [parse-opts]]
-            [passman.db :refer [list-passwords]]
+            [passman.db :as db]
+            [passman.stash :as stash]
             [passman.password :refer [generate-password]]
+            [passman.clipboard :refer [copy]]
             [table.core :as t]))
 
 (def cli-options
@@ -12,10 +14,29 @@
    ["-g" "--generate" "Generate new password"]
    [nil "--list"]])
 
+(defn password-input []
+  (println "Enter your master key:")
+  (String. (.readPassword (System/console))))
+
 (defn -main [& args]
   (let [parsed-options (parse-opts args cli-options)
+        url (first (:arguments parsed-options))
+        username (second (:arguments parsed-options))
         options (:options parsed-options)]
-    (println options)
+    
     (cond
-      (:generate options) (let [password (generate-password (:length options))] password)
-      (:list options) (t/table (list-passwords)))))
+      (:generate options) (do
+                            (stash/stash-init (password-input))
+                            (let [password (generate-password (:length options))]
+                              (db/insert-password url username)
+                              (stash/add-password url username password)
+                              (println "Password copied to clipboard")
+                              (copy password)))
+      
+      (and url username) (do
+                           (stash/stash-init (password-input))
+                           (let [password (stash/find-password url username)]
+                             (copy password)
+                             (println "Password copied to clipboard")))
+
+      (:list options) (t/table (db/list-passwords)))))

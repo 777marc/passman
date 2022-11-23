@@ -35,5 +35,6 @@
 
 (comment
   (create-db!)
-  (insert-password "myspace.com" "marc@test.com")
+  (insert-password "teamgantt.com" "marc@test.com")
+  (insert-password "mybank.com" "marc@test.com")
   (list-passwords))

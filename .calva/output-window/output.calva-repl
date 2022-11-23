@@ -5,7 +5,7 @@
 ; Happy coding! ♥️
 
 ; Jacking in...
-; Starting Jack-in Terminal: bb --nrepl-server 63084
+; Starting Jack-in Terminal: bb --nrepl-server 51293
 ; Hooking up nREPL sessions...
 ; Connected session: clj
 ; TIPS:
@@ -18,12 +18,6 @@
 clj꞉user꞉>  ; Use `alt+enter` to evaluate
 ; Jack-in done.
 clj꞉user꞉> 
-(+ 1 3)
-4
-
-clj꞉user꞉> 
-; clojure.lang.ExceptionInfo: Could not resolve symbol: sql/format passman.db /Users/marcmendoza/Documents/GitHub/clojure/passman/src/passman/db.clj:5:7
-clj꞉passman.db꞉> 
 nil
 
 clj꞉passman.db꞉> 
@@ -33,338 +27,41 @@ clj꞉passman.db꞉> 
 nil
 
 clj꞉passman.db꞉> 
-#<Var@557cb469: "passman.db">
+#<Var@538626f6: "passman.db">
 
 clj꞉passman.db꞉> 
-#<Var@493c3e46: #object[sci.impl.fns$fun$arity_0__3544 0x54f91f41 "sci.impl.fns$fun$arity_0__3544@54f91f41"]>
-
-clj꞉passman.db꞉> 
-["\nINSERT INTO passwords\n(url, username)\nVALUES (?, ?)\n" "facebook.com" "marc@test.com"]
-
-clj꞉passman.db꞉> 
-#<Var@5b7d9d56: #object[sci.impl.fns$fun$arity_2__3556 0x606f7674 "sci.impl.fns$fun$arity_2__3556@606f7674"]>
-
-clj꞉passman.db꞉> 
-; clojure.lang.ExceptionInfo: no such table: passwords passman.db /Users/marcmendoza/Documents/GitHub/clojure/passman/src/passman/db.clj:2:3
-clj꞉passman.db꞉> 
-nil
-
-clj꞉passman.db꞉> 
-; clojure.lang.ExceptionInfo: no such table: passwords passman.db /Users/marcmendoza/Documents/GitHub/clojure/passman/src/passman/db.clj:2:3
-clj꞉passman.db꞉> 
-; clojure.lang.ExceptionInfo: no such table: passwords passman.db /Users/marcmendoza/Documents/GitHub/clojure/passman/src/passman/db.clj:2:3
-clj꞉passman.db꞉> 
-#<Var@5b7d9d56: #object[sci.impl.fns$fun$arity_2__3556 0x37863906 "sci.impl.fns$fun$arity_2__3556@37863906"]>
-
-clj꞉passman.db꞉> 
-#<Var@493c3e46: #object[sci.impl.fns$fun$arity_0__3544 0x160488ab "sci.impl.fns$fun$arity_0__3544@160488ab"]>
+#<Var@58439885: #object[sci.impl.fns$fun$arity_0__3544 0x10aa964 "sci.impl.fns$fun$arity_0__3544@10aa964"]>
 
 clj꞉passman.db꞉> 
 {:rows-affected 0, :last-inserted-id 0}
 
 clj꞉passman.db꞉> 
-; clojure.lang.ExceptionInfo: no such table: passwords passman.db /Users/marcmendoza/Documents/GitHub/clojure/passman/src/passman/db.clj:2:3
-clj꞉passman.db꞉> 
-; clojure.lang.ExceptionInfo: no such table: passwords passman.db /Users/marcmendoza/Documents/GitHub/clojure/passman/src/passman/db.clj:2:3
-clj꞉passman.db꞉> 
-{:rows-affected 0, :last-inserted-id 0}
+#<Var@4a3a17dd: #object[sci.impl.fns$fun$arity_2__3556 0x390a2e07 "sci.impl.fns$fun$arity_2__3556@390a2e07"]>
 
 clj꞉passman.db꞉> 
-; clojure.lang.ExceptionInfo: no such table: passwords passman.db /Users/marcmendoza/Documents/GitHub/clojure/passman/src/passman/db.clj:2:3
-clj꞉passman.db꞉> 
-; nREPL Connection was closed
-; Jacking in...
-; Starting Jack-in Terminal: bb --nrepl-server 63223
-; Hooking up nREPL sessions...
-; Connected session: clj
-; TIPS:
-;   - You can edit the contents here. Use it as a REPL if you like.
-;   - `alt+enter` evaluates the current top level form.
-;   - `ctrl+enter` evaluates the current form.
-;   - `alt+up` and `alt+down` traverse up and down the REPL command history
-;      when the cursor is after the last contents at the prompt
-;   - Clojure lines in stack traces are peekable and clickable.
-clj꞉user꞉> 
-; Jack-in done.
-clj꞉user꞉> 
-nil
-
-clj꞉passman.db꞉> 
-{:pod/id "pod.babashka.go-sqlite3"}
+#<Var@14840be0: #object[sci.impl.fns$fun$arity_0__3544 0x4fc8606a "sci.impl.fns$fun$arity_0__3544@4fc8606a"]>
 
 clj꞉passman.db꞉> 
 nil
 
 clj꞉passman.db꞉> 
-#<Var@3a92b1bb: "passman.db">
+{:rows-affected 1, :last-inserted-id 1}
 
 clj꞉passman.db꞉> 
-#<Var@3a7daf0b: #object[sci.impl.fns$fun$arity_0__3544 0x41ce8a4f "sci.impl.fns$fun$arity_0__3544@41ce8a4f"]>
-
-clj꞉passman.db꞉> 
-#<Var@765c99d3: #object[sci.impl.fns$fun$arity_2__3556 0x5d60b1df "sci.impl.fns$fun$arity_2__3556@5d60b1df"]>
-
-clj꞉passman.db꞉> 
-{:last-inserted-id 0, :rows-affected 0}
-
-clj꞉passman.db꞉> 
-{:last-inserted-id 1, :rows-affected 1}
-
-clj꞉passman.db꞉> 
-#<Var@569befa1: #object[sci.impl.fns$fun$arity_0__3544 0x5ceaccc1 "sci.impl.fns$fun$arity_0__3544@5ceaccc1"]>
-
-clj꞉passman.db꞉> 
-[{:url "myspace.com", :username "marc@test.com"}]
+{:rows-affected 1, :last-inserted-id 2}
 
 clj꞉passman.db꞉> 
 nil
 
-clj꞉passman.app꞉> 
-; clojure.lang.ExceptionInfo: Could not resolve symbol: cli-options passman.app /Users/marcmendoza/Documents/GitHub/clojure/passman/src/passman/app.clj:2:24
-clj꞉passman.app꞉> 
-#<Var@26d081c0: [[nil "--list"]]>
-
-clj꞉passman.app꞉> 
-#<Var@745874e: #object[sci.impl.fns$fun$arity_0__3040 0x1c32d7a0 "sci.impl.fns$fun$arity_0__3040@1c32d7a0"]>
-
-clj꞉passman.app꞉> 
-(-main)
-nil
-
-clj꞉passman.app꞉> 
-; nREPL Connection was closed
-; Jacking in...
-; Starting Jack-in Terminal: bb --nrepl-server 63342
-; Hooking up nREPL sessions...
-; Connected session: clj
-; TIPS:
-;   - You can edit the contents here. Use it as a REPL if you like.
-;   - `alt+enter` evaluates the current top level form.
-;   - `ctrl+enter` evaluates the current form.
-;   - `alt+up` and `alt+down` traverse up and down the REPL command history
-;      when the cursor is after the last contents at the prompt
-;   - Clojure lines in stack traces are peekable and clickable.
-clj꞉user꞉> 
-; Jack-in done.
-clj꞉user꞉> 
-; java.lang.Exception: Could not find namespace: pod.babashka.go-sqlite3. passman.app /Users/marcmendoza/Documents/GitHub/clojure/passman/src/passman/db.clj:2:3
-clj꞉passman.app꞉> 
-; Jacking in...
-; Starting Jack-in Terminal: bb --nrepl-server 63370
-; nREPL Connection was closed
-; Hooking up nREPL sessions...
-; Connected session: clj
-; TIPS:
-;   - You can edit the contents here. Use it as a REPL if you like.
-;   - `alt+enter` evaluates the current top level form.
-;   - `ctrl+enter` evaluates the current form.
-;   - `alt+up` and `alt+down` traverse up and down the REPL command history
-;      when the cursor is after the last contents at the prompt
-;   - Clojure lines in stack traces are peekable and clickable.
-clj꞉user꞉> 
-; Jack-in done.
-clj꞉user꞉> 
-; java.lang.Exception: Could not find namespace: pod.babashka.go-sqlite3. passman.db /Users/marcmendoza/Documents/GitHub/clojure/passman/src/passman/db.clj:2:3
 clj꞉passman.db꞉> 
-; java.lang.Exception: Could not find namespace: pod.babashka.go-sqlite3. passman.db /Users/marcmendoza/Documents/GitHub/clojure/passman/src/passman/db.clj:1:1
-clj꞉passman.db꞉> 
-; nREPL Connection was closed
-; Jacking in...
-; Starting Jack-in Terminal: bb --nrepl-server 63455
-; Hooking up nREPL sessions...
-; Connected session: clj
-; TIPS:
-;   - You can edit the contents here. Use it as a REPL if you like.
-;   - `alt+enter` evaluates the current top level form.
-;   - `ctrl+enter` evaluates the current form.
-;   - `alt+up` and `alt+down` traverse up and down the REPL command history
-;      when the cursor is after the last contents at the prompt
-;   - Clojure lines in stack traces are peekable and clickable.
-clj꞉user꞉> 
-; Jack-in done.
-clj꞉user꞉> 
-nil
+[{:url "teamgantt.com", :username "marc@test.com"} {:url "mybank.com", :username "marc@test.com"}]
 
 clj꞉passman.db꞉> 
-{:pod/id "pod.babashka.go-sqlite3"}
-
-clj꞉passman.db꞉> 
-; java.lang.Exception: list-passwords does not exist passman.app /Users/marcmendoza/Documents/GitHub/clojure/passman/src/passman/app.clj:3:3
-clj꞉passman.app꞉> 
-; java.lang.Exception: list-passwords does not exist passman.app /Users/marcmendoza/Documents/GitHub/clojure/passman/src/passman/app.clj:3:3
-clj꞉passman.app꞉> 
-; clojure.lang.ExceptionInfo: Could not resolve symbol: cli-options passman.app /Users/marcmendoza/Documents/GitHub/clojure/passman/src/passman/app.clj:2:24
-clj꞉passman.app꞉> 
-#<Var@458155a8: [[nil "--list"]]>
-
-clj꞉passman.app꞉> 
-; java.lang.Exception: list-passwords does not exist passman.app /Users/marcmendoza/Documents/GitHub/clojure/passman/src/passman/app.clj:3:3
-clj꞉passman.app꞉> 
-; java.lang.Exception: list-passwords does not exist passman.app /Users/marcmendoza/Documents/GitHub/clojure/passman/src/passman/app.clj:3:3
-clj꞉passman.app꞉> 
-; Jacking in...
-; nREPL Connection was closed
-; Starting Jack-in Terminal: bb --nrepl-server 63557
-; Hooking up nREPL sessions...
-; Connected session: clj
-; TIPS:
-;   - You can edit the contents here. Use it as a REPL if you like.
-;   - `alt+enter` evaluates the current top level form.
-;   - `ctrl+enter` evaluates the current form.
-;   - `alt+up` and `alt+down` traverse up and down the REPL command history
-;      when the cursor is after the last contents at the prompt
-;   - Clojure lines in stack traces are peekable and clickable.
-clj꞉user꞉> 
-; Jack-in done.
-clj꞉user꞉> 
-; java.lang.Exception: Could not find namespace: table.core. passman.app /Users/marcmendoza/Documents/GitHub/clojure/passman/src/passman/app.clj:4:3
-clj꞉passman.app꞉> 
-; nREPL Connection was closed
-; Jacking in...
-; Starting Jack-in Terminal: bb --nrepl-server 63575
-; Hooking up nREPL sessions...
-; Connected session: clj
-; TIPS:
-;   - You can edit the contents here. Use it as a REPL if you like.
-;   - `alt+enter` evaluates the current top level form.
-;   - `ctrl+enter` evaluates the current form.
-;   - `alt+up` and `alt+down` traverse up and down the REPL command history
-;      when the cursor is after the last contents at the prompt
-;   - Clojure lines in stack traces are peekable and clickable.
-clj꞉user꞉> 
-; Jack-in done.
-clj꞉user꞉> 
-; Jacking in...
-; Starting Jack-in Terminal: bb --nrepl-server 63583
-; nREPL Connection was closed
-; Hooking up nREPL sessions...
-; Connected session: clj
-; TIPS:
-;   - You can edit the contents here. Use it as a REPL if you like.
-;   - `alt+enter` evaluates the current top level form.
-;   - `ctrl+enter` evaluates the current form.
-;   - `alt+up` and `alt+down` traverse up and down the REPL command history
-;      when the cursor is after the last contents at the prompt
-;   - Clojure lines in stack traces are peekable and clickable.
-clj꞉user꞉> 
-; Jack-in done.
-clj꞉user꞉> 
-; java.lang.Exception: Could not find namespace: table.core. passman.app /Users/marcmendoza/Documents/GitHub/clojure/passman/src/passman/app.clj:4:3
-clj꞉passman.app꞉> 
-; nREPL Connection was closed
-; Jacking in...
-; Starting Jack-in Terminal: bb --nrepl-server 63618
-; Hooking up nREPL sessions...
-; Connected session: clj
-; TIPS:
-;   - You can edit the contents here. Use it as a REPL if you like.
-;   - `alt+enter` evaluates the current top level form.
-;   - `ctrl+enter` evaluates the current form.
-;   - `alt+up` and `alt+down` traverse up and down the REPL command history
-;      when the cursor is after the last contents at the prompt
-;   - Clojure lines in stack traces are peekable and clickable.
-clj꞉user꞉> 
-; Jack-in done.
-clj꞉user꞉> 
-; java.lang.Exception: Could not find namespace: table.core. passman.app /Users/marcmendoza/Documents/GitHub/clojure/passman/src/passman/app.clj:2:3
-clj꞉passman.app꞉> 
-; nREPL Connection was closed
-; Jacking in...
-; Starting Jack-in Terminal: bb --nrepl-server 63651
-; Hooking up nREPL sessions...
-; Connected session: clj
-; TIPS:
-;   - You can edit the contents here. Use it as a REPL if you like.
-;   - `alt+enter` evaluates the current top level form.
-;   - `ctrl+enter` evaluates the current form.
-;   - `alt+up` and `alt+down` traverse up and down the REPL command history
-;      when the cursor is after the last contents at the prompt
-;   - Clojure lines in stack traces are peekable and clickable.
-clj꞉user꞉> 
-; Jack-in done.
-clj꞉user꞉> 
-; java.lang.Exception: Could not find namespace: table.core. passman.app /Users/marcmendoza/Documents/GitHub/clojure/passman/src/passman/app.clj:2:3
-clj꞉passman.app꞉> 
-; java.lang.Exception: Could not find namespace: table.core. passman.app /Users/marcmendoza/Documents/GitHub/clojure/passman/src/passman/app.clj:2:3
-clj꞉passman.app꞉> 
-; nREPL Connection was closed
-; Jacking in...
-; Starting Jack-in Terminal: bb --nrepl-server 63845
-; Hooking up nREPL sessions...
-; Connected session: clj
-; TIPS:
-;   - You can edit the contents here. Use it as a REPL if you like.
-;   - `alt+enter` evaluates the current top level form.
-;   - `ctrl+enter` evaluates the current form.
-;   - `alt+up` and `alt+down` traverse up and down the REPL command history
-;      when the cursor is after the last contents at the prompt
-;   - Clojure lines in stack traces are peekable and clickable.
-clj꞉user꞉> 
-; Jack-in done.
-clj꞉user꞉> 
-nil
-
-clj꞉passman.app꞉> 
-; nREPL Connection was closed
-; Jacking in...
-; Starting Jack-in Terminal: bb --nrepl-server 63890
-; Hooking up nREPL sessions...
-; Connected session: clj
-; TIPS:
-;   - You can edit the contents here. Use it as a REPL if you like.
-;   - `alt+enter` evaluates the current top level form.
-;   - `ctrl+enter` evaluates the current form.
-;   - `alt+up` and `alt+down` traverse up and down the REPL command history
-;      when the cursor is after the last contents at the prompt
-;   - Clojure lines in stack traces are peekable and clickable.
-clj꞉user꞉> 
-; Jack-in done.
-clj꞉user꞉> 
-#<Var@2c6ab0df: #object[sci.impl.fns$fun$arity_1__3549 0x2f94c91d "sci.impl.fns$fun$arity_1__3549@2f94c91d"]>
-
-clj꞉passman.password꞉> 
-"S`4N/TL27V@\"jy[uM$Wl>FKs<1Dd8?Gti$TskBep2c9]KCg\"dX"
-
-clj꞉passman.password꞉> 
-#<Var@61a1ec11: 
-  [["-l"
-    "--length Length"
-    "Password Length"
-    :default
-    40
-    :parse-fn
-    #object[sci.impl.fns$fun$arity_1__3549 0x7e902c06 "sci.impl.fns$fun$arity_1__3549@7e902c06"]
-    :validate
-    [#object[sci.impl.fns$fun$arity_1__3549 0x2cf4c3d8 "sci.impl.fns$fun$arity_1__3549@2cf4c3d8"]
-     "Must be a number between 0 and 65536"]]
-   ["-g" "--generate" "Generate new password"]
-   [nil "--list"]]>
-
-clj꞉passman.app꞉> 
-; clojure.lang.ExceptionInfo: Could not resolve symbol: parse-opts passman.app /Users/marcmendoza/Documents/GitHub/clojure/passman/src/passman/app.clj:2:24
-clj꞉passman.app꞉> 
-nil
-
-clj꞉passman.app꞉> 
-; nREPL Connection was closed
-; Jacking in...
-; Starting Jack-in Terminal: bb --nrepl-server 52167
-; Hooking up nREPL sessions...
-; Connected session: clj
-; TIPS:
-;   - You can edit the contents here. Use it as a REPL if you like.
-;   - `alt+enter` evaluates the current top level form.
-;   - `ctrl+enter` evaluates the current form.
-;   - `alt+up` and `alt+down` traverse up and down the REPL command history
-;      when the cursor is after the last contents at the prompt
-;   - Clojure lines in stack traces are peekable and clickable.
-clj꞉user꞉> 
-; Jack-in done.
-clj꞉user꞉> 
 nil
 
 clj꞉passman.stash꞉> 
-; clojure.lang.ExceptionInfo: Could not resolve symbol: stash/init passman.stash /Users/marc/Documents/GitHub/clojure/passman/src/passman/stash.clj:5:3
+#<Var@310fed4f: "passman.stash">
+
 clj꞉passman.stash꞉> 
 {:pod/id "pod.rorokimdim.stash"}
 
@@ -372,5 +69,417 @@ clj꞉passman.stash꞉> 
 ; 
 ; Successfully installed pod rorokimdim/stash (0.3.1)
 clj꞉passman.stash꞉> 
-; clojure.lang.ExceptionInfo: Could not resolve symbol: stash/init passman.stash /Users/marc/Documents/GitHub/clojure/passman/src/passman/stash.clj:5:3
+nil
+
 clj꞉passman.stash꞉> 
+#<Var@690da21d: #object[sci.impl.fns$fun$arity_1__3549 0x72f576f2 "sci.impl.fns$fun$arity_1__3549@72f576f2"]>
+
+clj꞉passman.stash꞉> 
+; clojure.lang.ExceptionInfo: Could not resolve symbol: stash-add passman.stash /Users/marcmendoza/Documents/GitHub/Clojure/passman/src/passman/stash.clj:2:3
+clj꞉passman.stash꞉> 
+#<Var@3c613f1a: #object[sci.impl.fns$fun$arity_3__3565 0x5ab7c721 "sci.impl.fns$fun$arity_3__3565@5ab7c721"]>
+
+clj꞉passman.stash꞉> 
+#<Var@1235b2ac: #object[sci.impl.fns$fun$arity_3__3565 0x299ddc9b "sci.impl.fns$fun$arity_3__3565@299ddc9b"]>
+
+clj꞉passman.stash꞉> 
+#<Var@56ea19e6: #object[sci.impl.fns$eval_fn$fn__4034 0x2f165a54 "sci.impl.fns$eval_fn$fn__4034@2f165a54"]>
+
+clj꞉passman.stash꞉> 
+#<Var@240df5c0: #object[sci.impl.fns$fun$arity_2__3556 0x5d7875cf "sci.impl.fns$fun$arity_2__3556@5d7875cf"]>
+
+clj꞉passman.stash꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Starting Jack-in Terminal: bb --nrepl-server 51554
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉user꞉> 
+; Jack-in done.
+clj꞉user꞉> 
+nil
+
+clj꞉passman.stash꞉> 
+#<Var@4666ed5c: "passman.stash">
+
+clj꞉passman.stash꞉> 
+{:pod/id "pod.rorokimdim.stash"}
+
+clj꞉passman.stash꞉> 
+nil
+
+clj꞉passman.stash꞉> 
+#<Var@79e83e91: #object[sci.impl.fns$fun$arity_1__3549 0x30d2e1e5 "sci.impl.fns$fun$arity_1__3549@30d2e1e5"]>
+
+clj꞉passman.stash꞉> 
+; clojure.lang.ExceptionInfo: Could not resolve symbol: stash-add passman.stash /Users/marcmendoza/Documents/GitHub/Clojure/passman/src/passman/stash.clj:2:3
+clj꞉passman.stash꞉> 
+#<Var@2b2f3dc2: #object[sci.impl.fns$fun$arity_3__3565 0xc11ca5e "sci.impl.fns$fun$arity_3__3565@c11ca5e"]>
+
+clj꞉passman.stash꞉> 
+#<Var@7072a54d: #object[sci.impl.fns$fun$arity_3__3565 0x38339b5b "sci.impl.fns$fun$arity_3__3565@38339b5b"]>
+
+clj꞉passman.stash꞉> 
+#<Var@5c9d5615: #object[sci.impl.fns$eval_fn$fn__4034 0x5c098a3b "sci.impl.fns$eval_fn$fn__4034@5c098a3b"]>
+
+clj꞉passman.stash꞉> 
+#<Var@61f1d5e0: #object[sci.impl.fns$fun$arity_2__3556 0x5595e51e "sci.impl.fns$fun$arity_2__3556@5595e51e"]>
+
+clj꞉passman.stash꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Starting Jack-in Terminal: bb --nrepl-server 51591
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉user꞉> 
+; Jack-in done.
+clj꞉user꞉> 
+; clojure.lang.ExceptionInfo: Could not resolve symbol: stash-nodes passman.stash /Users/marcmendoza/Documents/GitHub/Clojure/passman/src/passman/stash.clj:1:1
+clj꞉passman.stash꞉> 
+; clojure.lang.ExceptionInfo: Could not resolve symbol: stash-nodes passman.stash /Users/marcmendoza/Documents/GitHub/Clojure/passman/src/passman/stash.clj:1:1
+clj꞉passman.stash꞉> 
+; clojure.lang.ExceptionInfo: Could not resolve symbol: add-password passman.stash /Users/marcmendoza/Documents/GitHub/Clojure/passman/src/passman/stash.clj:1:1
+clj꞉passman.stash꞉> 
+; clojure.lang.ExceptionInfo: Could not resolve symbol: stash-nodes passman.stash /Users/marcmendoza/Documents/GitHub/Clojure/passman/src/passman/stash.clj:1:1
+clj꞉passman.stash꞉> 
+; clojure.lang.ExceptionInfo: Could not resolve symbol: stash-nodes passman.stash /Users/marcmendoza/Documents/GitHub/Clojure/passman/src/passman/stash.clj:2:15
+clj꞉passman.stash꞉> 
+nil
+
+clj꞉passman.stash꞉> 
+; clojure.lang.ExceptionInfo: Could not resolve symbol: stash-nodes passman.stash /Users/marcmendoza/Documents/GitHub/Clojure/passman/src/passman/stash.clj:1:1
+clj꞉passman.stash꞉> 
+; clojure.lang.ExceptionInfo: Could not resolve symbol: stash-nodes passman.stash /Users/marcmendoza/Documents/GitHub/Clojure/passman/src/passman/stash.clj:2:15
+clj꞉passman.stash꞉> 
+; clojure.lang.ExceptionInfo: Could not resolve symbol: stash/nodes passman.stash /Users/marcmendoza/Documents/GitHub/Clojure/passman/src/passman/stash.clj:5:16
+clj꞉passman.stash꞉> 
+#<Var@1a24ba87: "passman.stash">
+
+clj꞉passman.stash꞉> 
+{:pod/id "pod.rorokimdim.stash"}
+
+clj꞉passman.stash꞉> 
+nil
+
+clj꞉passman.stash꞉> 
+#<Var@24a2597e: #object[sci.impl.fns$fun$arity_1__3549 0x748930a6 "sci.impl.fns$fun$arity_1__3549@748930a6"]>
+
+clj꞉passman.stash꞉> 
+#<Var@19f24ada: #object[sci.impl.fns$fun$arity_3__3565 0x6327fa91 "sci.impl.fns$fun$arity_3__3565@6327fa91"]>
+
+clj꞉passman.stash꞉> 
+#<Var@324d0de6: #object[sci.impl.fns$fun$arity_3__3565 0x1d5ee65 "sci.impl.fns$fun$arity_3__3565@1d5ee65"]>
+
+clj꞉passman.stash꞉> 
+#<Var@718800db: #object[sci.impl.fns$eval_fn$fn__4034 0x43ad1f3f "sci.impl.fns$eval_fn$fn__4034@43ad1f3f"]>
+
+clj꞉passman.stash꞉> 
+#<Var@47121e55: #object[sci.impl.fns$fun$arity_2__3556 0x6e383a44 "sci.impl.fns$fun$arity_2__3556@6e383a44"]>
+
+clj꞉passman.stash꞉> 
+(stash-nodes)
+; nREPL Connection was closed
+; Jacking in...
+; Starting Jack-in Terminal: bb --nrepl-server 51648
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉user꞉> 
+; Jack-in done.
+clj꞉user꞉> 
+nil
+
+clj꞉passman.stash꞉> 
+#<Var@4f1f701: "passman.stash">
+
+clj꞉passman.stash꞉> 
+{:pod/id "pod.rorokimdim.stash"}
+
+clj꞉passman.stash꞉> 
+nil
+
+clj꞉passman.stash꞉> 
+#<Var@4afbd0fc: #object[sci.impl.fns$fun$arity_1__3549 0x2bc26b20 "sci.impl.fns$fun$arity_1__3549@2bc26b20"]>
+
+clj꞉passman.stash꞉> 
+#<Var@1bd35fd8: #object[sci.impl.fns$fun$arity_3__3565 0x1f0dd13 "sci.impl.fns$fun$arity_3__3565@1f0dd13"]>
+
+clj꞉passman.stash꞉> 
+#<Var@71c3c4d8: #object[sci.impl.fns$fun$arity_3__3565 0x6e52f072 "sci.impl.fns$fun$arity_3__3565@6e52f072"]>
+
+clj꞉passman.stash꞉> 
+#<Var@749d6e3c: #object[sci.impl.fns$eval_fn$fn__4034 0x1fdb592e "sci.impl.fns$eval_fn$fn__4034@1fdb592e"]>
+
+clj꞉passman.stash꞉> 
+#<Var@70e0cbbe: #object[sci.impl.fns$fun$arity_2__3556 0x208026d "sci.impl.fns$fun$arity_2__3556@208026d"]>
+
+clj꞉passman.stash꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Starting Jack-in Terminal: bb --nrepl-server 51692
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉user꞉> 
+; Jack-in done.
+clj꞉user꞉> 
+nil
+
+clj꞉passman.stash꞉> 
+#<Var@465c7096: "passman.stash">
+
+clj꞉passman.stash꞉> 
+{:pod/id "pod.rorokimdim.stash"}
+
+clj꞉passman.stash꞉> 
+nil
+
+clj꞉passman.stash꞉> 
+#<Var@58750b38: #object[sci.impl.fns$fun$arity_1__3549 0x667ebf25 "sci.impl.fns$fun$arity_1__3549@667ebf25"]>
+
+clj꞉passman.stash꞉> 
+#<Var@c519896: #object[sci.impl.fns$fun$arity_3__3565 0x1978f525 "sci.impl.fns$fun$arity_3__3565@1978f525"]>
+
+clj꞉passman.stash꞉> 
+#<Var@147e8713: #object[sci.impl.fns$fun$arity_3__3565 0x4b337126 "sci.impl.fns$fun$arity_3__3565@4b337126"]>
+
+clj꞉passman.stash꞉> 
+#<Var@181d24a2: #object[sci.impl.fns$eval_fn$fn__4034 0x25980114 "sci.impl.fns$eval_fn$fn__4034@25980114"]>
+
+clj꞉passman.stash꞉> 
+#<Var@542c9764: #object[sci.impl.fns$fun$arity_2__3556 0x6bd5aa0a "sci.impl.fns$fun$arity_2__3556@6bd5aa0a"]>
+
+clj꞉passman.stash꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Starting Jack-in Terminal: bb --nrepl-server 51741
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉user꞉> 
+; Jack-in done.
+clj꞉user꞉> 
+nil
+
+clj꞉passman.stash꞉> 
+#<Var@6a3f92a0: "passman.stash">
+
+clj꞉passman.stash꞉> 
+{:pod/id "pod.rorokimdim.stash"}
+
+clj꞉passman.stash꞉> 
+nil
+
+clj꞉passman.stash꞉> 
+#<Var@566cb4bb: #object[sci.impl.fns$fun$arity_1__3549 0x55284507 "sci.impl.fns$fun$arity_1__3549@55284507"]>
+
+clj꞉passman.stash꞉> 
+; clojure.lang.ExceptionInfo: Could not resolve symbol: stash-add passman.stash /Users/marcmendoza/Documents/GitHub/Clojure/passman/src/passman/stash.clj:2:3
+clj꞉passman.stash꞉> 
+#<Var@5049f3a: #object[sci.impl.fns$fun$arity_3__3565 0x58177cb7 "sci.impl.fns$fun$arity_3__3565@58177cb7"]>
+
+clj꞉passman.stash꞉> 
+#<Var@2cd08aae: #object[sci.impl.fns$fun$arity_3__3565 0x6afbb3ec "sci.impl.fns$fun$arity_3__3565@6afbb3ec"]>
+
+clj꞉passman.stash꞉> 
+#<Var@b998731: #object[sci.impl.fns$eval_fn$fn__4034 0x2e695a77 "sci.impl.fns$eval_fn$fn__4034@2e695a77"]>
+
+clj꞉passman.stash꞉> 
+#<Var@76347456: #object[sci.impl.fns$fun$arity_2__3556 0x67d4bca "sci.impl.fns$fun$arity_2__3556@67d4bca"]>
+
+clj꞉passman.stash꞉> 
+; Jacking in...
+; nREPL Connection was closed
+; Starting Jack-in Terminal: bb --nrepl-server 51792
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉user꞉> 
+; Jack-in done.
+clj꞉user꞉> 
+nil
+
+clj꞉passman.app꞉> 
+nil
+
+clj꞉passman.app꞉> 
+#<Var@661a2c65: 
+  [["-l"
+    "--length Length"
+    "Password Length"
+    :default
+    40
+    :parse-fn
+    #object[sci.impl.fns$fun$arity_1__3549 0x192bc406 "sci.impl.fns$fun$arity_1__3549@192bc406"]
+    :validate
+    [#object[sci.impl.fns$fun$arity_1__3549 0x7dbe00af "sci.impl.fns$fun$arity_1__3549@7dbe00af"]
+     "Must be a number between 0 and 65536"]]
+   ["-g" "--generate" "Generate new password"]
+   [nil "--list"]]>
+
+clj꞉passman.app꞉> 
+nil
+
+clj꞉passman.clipboard꞉> 
+#<Var@48eaf7d2: #object[sci.impl.fns$fun$arity_1__3549 0x57b49286 "sci.impl.fns$fun$arity_1__3549@57b49286"]>
+
+clj꞉passman.clipboard꞉> 
+nil
+
+clj꞉passman.clipboard꞉> 
+; clojure.lang.ExceptionInfo: Could not resolve symbol: password-input passman.app /Users/marcmendoza/Documents/GitHub/Clojure/passman/src/passman/app.clj:10:47
+clj꞉passman.app꞉> 
+#<Var@661a2c65: 
+  [["-l"
+    "--length Length"
+    "Password Length"
+    :default
+    40
+    :parse-fn
+    #object[sci.impl.fns$fun$arity_1__3549 0x3acb54da "sci.impl.fns$fun$arity_1__3549@3acb54da"]
+    :validate
+    [#object[sci.impl.fns$fun$arity_1__3549 0x20e59ce8 "sci.impl.fns$fun$arity_1__3549@20e59ce8"]
+     "Must be a number between 0 and 65536"]]
+   ["-g" "--generate" "Generate new password"]
+   [nil "--list"]]>
+
+clj꞉passman.app꞉> 
+#<Var@44c98e1: #object[sci.impl.fns$fun$arity_0__3544 0x22ada457 "sci.impl.fns$fun$arity_0__3544@22ada457"]>
+
+clj꞉passman.app꞉> 
+; clojure.lang.ExceptionInfo: Could not resolve symbol: copy passman.app /Users/marcmendoza/Documents/GitHub/Clojure/passman/src/passman/app.clj:15:31
+clj꞉passman.app꞉> 
+; clojure.lang.ExceptionInfo: Could not resolve symbol: copy passman.app /Users/marcmendoza/Documents/GitHub/Clojure/passman/src/passman/app.clj:15:31
+clj꞉passman.app꞉> 
+; clojure.lang.ExceptionInfo: Could not resolve symbol: copy passman.app /Users/marcmendoza/Documents/GitHub/Clojure/passman/src/passman/app.clj:15:31
+clj꞉passman.app꞉> 
+; clojure.lang.ExceptionInfo: Could not resolve symbol: copy passman.app /Users/marcmendoza/Documents/GitHub/Clojure/passman/src/passman/app.clj:15:31
+clj꞉passman.app꞉> 
+; Jacking in...
+; Starting Jack-in Terminal: bb --nrepl-server 51865
+; nREPL Connection was closed
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉user꞉> 
+; Jack-in done.
+clj꞉user꞉> 
+nil
+
+clj꞉passman.app꞉> 
+#<Var@480ba712: 
+  [["-l"
+    "--length Length"
+    "Password Length"
+    :default
+    40
+    :parse-fn
+    #object[sci.impl.fns$fun$arity_1__3549 0x3aeca9f8 "sci.impl.fns$fun$arity_1__3549@3aeca9f8"]
+    :validate
+    [#object[sci.impl.fns$fun$arity_1__3549 0x155eba54 "sci.impl.fns$fun$arity_1__3549@155eba54"]
+     "Must be a number between 0 and 65536"]]
+   ["-g" "--generate" "Generate new password"]
+   [nil "--list"]]>
+
+clj꞉passman.app꞉> 
+#<Var@1ccb72a8: #object[sci.impl.fns$fun$arity_0__3544 0x60a76610 "sci.impl.fns$fun$arity_0__3544@60a76610"]>
+
+clj꞉passman.app꞉> 
+#<Var@4c1a4259: #object[sci.impl.fns$fun$arity_0__3040 0x72bf4935 "sci.impl.fns$fun$arity_0__3040@72bf4935"]>
+
+clj꞉passman.app꞉> 
+; Jacking in...
+; Starting Jack-in Terminal: bb --nrepl-server 52089
+; nREPL Connection was closed
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉user꞉> 
+; Jack-in done.
+clj꞉user꞉> 
+nil
+
+clj꞉passman.db꞉> 
+{:pod/id "pod.babashka.go-sqlite3"}
+
+clj꞉passman.db꞉> 
+nil
+
+clj꞉passman.db꞉> 
+#<Var@2cf68b47: "passman.db">
+
+clj꞉passman.db꞉> 
+#<Var@6b9ccf7b: #object[sci.impl.fns$fun$arity_0__3544 0x29d10a6a "sci.impl.fns$fun$arity_0__3544@29d10a6a"]>
+
+clj꞉passman.db꞉> 
+#<Var@2d7884b6: #object[sci.impl.fns$fun$arity_2__3556 0x4023b291 "sci.impl.fns$fun$arity_2__3556@4023b291"]>
+
+clj꞉passman.db꞉> 
+#<Var@53c7172b: #object[sci.impl.fns$fun$arity_0__3544 0x555b582 "sci.impl.fns$fun$arity_0__3544@555b582"]>
+
+clj꞉passman.db꞉> 
+{:rows-affected 0, :last-inserted-id 0}
+
+clj꞉passman.db꞉> 
+{:rows-affected 1, :last-inserted-id 1}
+
+clj꞉passman.db꞉> 
+{:last-inserted-id 2, :rows-affected 1}
+
+clj꞉passman.db꞉> 
+[{:url "teamgantt.com", :username "marc@test.com"} {:url "mybank.com", :username "marc@test.com"}]
+
+clj꞉passman.db꞉> 
+{:rows-affected 0, :last-inserted-id 0}
+
+clj꞉passman.db꞉> 
